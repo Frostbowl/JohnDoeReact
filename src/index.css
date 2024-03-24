@@ -21,7 +21,7 @@ header {
   margin-bottom: 50px;
 }
 
-h1,h2, strong{
+h1,h2,h3,h4 strong{
   font-family:"Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
