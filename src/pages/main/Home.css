@@ -24,8 +24,6 @@
     padding-bottom: 2rem;
 }
 
-.apropos{
-}
 
 .titre::after{
     content: "";
