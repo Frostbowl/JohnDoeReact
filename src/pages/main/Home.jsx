@@ -9,14 +9,14 @@ const Home = () =>{
                 <div id="welcomeText">
                     <h1>Bonjour, je m'appel Clément Masclet</h1>
                     <h2>Développeur Web full stack</h2>
-                    <button type='button' class='btn btn-primary'>En savoir plus</button>
+                    <button type='button' className='btn btn-primary'>En savoir plus</button>
                 </div>
             </div>
 
-            <section >
-                    <div  className="container-fluid row box-about">
+            <section className='container apropos'>
+                    <div  className=" row ">
                         <article className='col-md-6 '>
-                            <h2>A propos</h2>
+                            <h2 className="titre">A propos</h2>
                             <p>Passioné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur Web</strong> au CEF.
                                 Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web.</strong><br /><br />
                                 Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong><br /><br />
@@ -24,27 +24,29 @@ const Home = () =>{
                             </p>
                         </article>
                         <article className='col-md-6'>
+                            <div className='container'>
                             <img src="../img/john-doe-about.jpg" alt="John Doe" />
                             <h2>Mes compétences</h2>
                             <p>HTML5 90%</p>
-                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar bg-danger" style= {{width: "90%"}}></div>
                             </div><br />
-                            <p class="">CSS3 80%</p>
-                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-info" style= {{width: "80%"}}></div>
+                            <p className="">CSS3 80%</p>
+                            <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div className="progress-bar bg-info" style= {{width: "80%"}}></div>
                             </div><br />
                             <p>JAVASCRIPT 70%</p>
-                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-warning" style= {{width: "70%"}}></div>
+                            <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div className="progress-bar bg-warning" style= {{width: "70%"}}></div>
                             </div><br />
                             <p>PHP 60%</p>
-                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-success" style= {{width: "60%"}}></div>
+                            <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div className="progress-bar bg-success" style= {{width: "60%"}}></div>
                             </div><br />
                             <p>REACT 50%</p>
-                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style= {{width: "50%"}}></div>
+                            <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div className="progress-bar" style= {{width: "50%"}}></div>
+                            </div>
                             </div>
                         </article>                    
                     </div>

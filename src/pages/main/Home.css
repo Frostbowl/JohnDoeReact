@@ -17,8 +17,22 @@
     width: 100%;
 }
 
-.box-about{
-    padding: 2em;
+.apropos{
+    margin-top: 2rem;
+    box-shadow: 1px 1px 8px 2px #e9e9e9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.apropos{
+}
+
+.titre::after{
+    content: "";
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid blue;
 }
 
 img{
