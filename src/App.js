@@ -3,6 +3,7 @@ import React from 'react';
 import Nav from './pages/header/Nav';
 import Home from './pages/main/Home';
 import Portfolio from './pages/main/Portfolio.jsx';
+import Blog from './pages/main/Blog.jsx';
 import Footer from './pages/footer/Footer.jsx';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Nav/>
         <Routes>
           <Route path='/' element= {<Home/>}/>
-          <Route path='portfolio' element= {<Portfolio/>}/>
+          <Route path='/portfolio' element= {<Portfolio/>}/>
+          <Route path='/blog' element={<Blog/>}/>
         </Routes>
       <Footer/>
 
