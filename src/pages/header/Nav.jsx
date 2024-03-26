@@ -5,9 +5,9 @@ import "./Nav.css";
 
 const Nav = () =>{
     return(
-		<nav className="navbar navbar-expand-lg  font-weight-bold text-light text-uppercase " id="mainNav">
+		<nav className="navbar navbar-expand-lg  font-weight-bold text-light " id="mainNav">
             <div className="container-fluid">
-                <Link to='/' className="navbar-brand text-light font-weight-bold" >Clément MASCLET</Link>
+                <Link to='/' className="navbar-brand text-light text-uppercase font-weight-bold" >Clément MASCLET</Link>
                 <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="fa-solid fa-bars" style={{ color: "#ffffff" }}></i>
                 </button>

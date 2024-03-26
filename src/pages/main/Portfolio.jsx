@@ -10,21 +10,20 @@ const Portfolio = () =>{
             </div>
             <div className='titrePortfolio text-center'>
                 <h1>Mes créations</h1>
-                <img src="../../../public/img/portfolio/espace-bien-etre.jpg%" alt="" />
                 <h2>Voici quelques unes de mes créations</h2>
             </div>
 
-            <div className='container creations'>
-            <div className='row text-center'>
+            <div className='container text-center creations'>
+
                 <div class="card " style={{width: "18rem"}}>
-                    <img src='../../../public/img/portfolio/espace-bien-etre.jpg' alt="" />
+                    <img src='fresh-food.jpg' alt="" className='card-img-top' />
                     <div class="card-body">
                         <h4 class="card-title">Freh food</h4>
                         <p class="card-text">Réalisation d'un site avec commande en ligne.</p>
                         <a href="#" class="btn btn-outline-primary">voir</a>
                      </div>
                     <div>
-                        <p className='techSpec'>Site réalisé avec PHP et MySQL</p>
+                        <p className='card-footer'>Site réalisé avec PHP et MySQL</p>
                     </div>
                 </div>
 
@@ -36,7 +35,7 @@ const Portfolio = () =>{
                         <a href="#" class="btn btn-outline-primary">voir</a>
                      </div>
                     <div>
-                        <p className='techSpec'>Site réalisé avec WordPress</p>
+                        <p className='card-footer'>Site réalisé avec WordPress</p>
                     </div> 
                 </div>
                 
@@ -48,10 +47,9 @@ const Portfolio = () =>{
                         <a href="#" class="btn btn-outline-primary">voir</a>
                      </div>
                     <div>
-                        <p className='techSpec'>Site réalisé en HTML/CSS</p>
+                        <p className='card-footer'>Site réalisé en HTML/CSS</p>
                     </div>
-                </div>
-                </div>   
+                </div> 
             </div>
 
 
