@@ -1,0 +1,13 @@
+a{
+    color: blue;
+}
+
+.accordion{
+    width: 90%;
+}
+
+.mentions{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
