@@ -7,15 +7,17 @@ const Portfolio = () =>{
         <main>
             <div className='portfolioBg'></div>
             
-            <div className='titrePortfolio text-center '>
-                <h1>Mes créations</h1>
-                <h2>Voici quelques unes de mes créations</h2>
+            <div className='titrePortfolio'>
+                <div className='text-center p-3 border-bottom border-primary border-4'>
+                    <h1 className='text-uppercase'>portfolio</h1>
+                    <h2>Voici quelques-unes de mes réalisations</h2>
+                </div>
             </div>
 
             <div className='container text-center'>
                 <div class="row  ">
                 
-                    <div class="col-md-5 col-xl-4 p-2">
+                    <div class="col-md-5 col-xl-4 px-3 py-4">
                         <div class="card" >
                             <img src="../img/portfolio/fresh-food.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">
@@ -29,7 +31,7 @@ const Portfolio = () =>{
                         </div>
                     </div>
 
-                    <div class="col-md-5 col-xl-4 p-2">
+                    <div class="col-md-5 col-xl-4 px-3 py-4">
                         <div class="card">
                             <img src="../img/portfolio/restaurant-japonais.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">
@@ -43,7 +45,7 @@ const Portfolio = () =>{
                         </div>
                     </div>
 
-                    <div class="col-md-5 col-xl-4 p-2">
+                    <div class="col-md-5 col-xl-4 px-3 py-4">
                         <div class="card">
                             <img src="../img/portfolio/espace-bien-etre.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">

@@ -3,10 +3,9 @@ import './Blog.css';
 const Blog = () =>{
     return(
         <main>
-            <div className='portfolioBg'></div>
+        <div className='blogBg'></div>
             
             <div className='titreBlog'>
-                <div className='blogBg'></div>
                 <div className='text-center p-3 border-bottom border-primary border-4'>
                     <h1 className='text-uppercase'>blog</h1>
                     <h2>Retrouvez ici quelques articles sur le développement web</h2>
@@ -14,7 +13,7 @@ const Blog = () =>{
             </div>
 
             <div className='container'>
-                <div class="row ">
+                <div className="row ">
 
                     <div class="col-md-5 col-xl-4 px-3 py-4">
                             <div class="card" >
