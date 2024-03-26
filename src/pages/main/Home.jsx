@@ -5,15 +5,15 @@ import "./Home.css";
 const Home = () =>{
     return (
         <main>
-            <div className='fond'>
+            <div className='fond '>
                 <div id="welcomeText">
-                    <h1>Bonjour, je m'appel Clément Masclet</h1>
-                    <h2>Développeur Web full stack</h2>
-                    <button type='button' className='btn btn-primary'>En savoir plus</button>
+                    <h1>Bonjour, je m'appel Clément Masclet</h1><br />
+                    <h2>Développeur Web full stack</h2><br />
+                    <button type='button' className='btn btn-primary'><a href="#propos">En savoir plus</a></button>
                 </div>
             </div>
 
-            <section className='container apropos'>
+            <section className='container apropos' id='propos'>
                     <div  className=" row ">
                         <article className='col-md-6 '>
                             <h2 className="titre">A propos</h2>
