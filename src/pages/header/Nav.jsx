@@ -14,10 +14,10 @@ const Nav = () =>{
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto text-white">
                         <li className="nav-item mx-0 mx-lg-1"><Link to='/' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Accueil</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link to='/' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Services</Link></li>
+                        <li className="nav-item mx-0 mx-lg-1"><Link to='service' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Services</Link></li>
                         <li className="nav-item mx-0 mx-lg-1"><Link to='portfolio' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Réalisations</Link></li>
                         <li className="nav-item mx-0 mx-lg-1"><Link to='blog' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Blog</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link to='/' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Me contacter</Link></li>
+                        <li className="nav-item mx-0 mx-lg-1"><Link to='contact' className="nav-link py-3 px-0 px-lg-3 rounded text-white" >Me contacter</Link></li>
                     </ul>
                 </div>
             </div>
