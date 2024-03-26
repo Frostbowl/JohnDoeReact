@@ -41,7 +41,7 @@ const Mention =()=>{
                                 <address>
                                     Adresse de l'hébergeur <br />
                                     code postal <br />
-                                    <a href="http://www.alwaysdata.com" target="_blank" rel="noopener noreferrer">www.alwaysdata.com</a>
+                                    <a href="http://www.alwaysdata.com" target="_blank" >www.alwaysdata.com</a>
                                 </address>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Mention =()=>{
                             <div class="accordion-body">
                                 <h1>Crédits</h1>
                                 <p>Site développé par Masclet Clément, étudiant du CEF.</p>
-                                <p>Les images libres de droit sont issues du site <a href="https://pixabay.com" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
+                                <p>Les images libres de droit sont issues du site <a href="https://pixabay.com" target="_blank" style={{color:"#0d6efd"}}>Pixabay</a></p>
                             </div>
                         </div>
                 </div>
