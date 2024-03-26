@@ -28,23 +28,23 @@ const Footer = () =>{
                     <h4>Liens utiles</h4>
                     <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Accueil</Link><br />
                     <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> A propos</Link><br />
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Services</Link><br />
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Me contacter</Link><br />
+                    <Link to='service'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Services</Link><br />
+                    <Link to='contact'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Me contacter</Link><br />
                     <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Mentions légales</Link><br />
                 </article>
 
                 <article className='col-md-3'>
                     <h4>Mes dernières réalisations</h4>
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Fresh Food</Link><br />
-                    <Link to='/'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Restaurant Akira</Link><br />
-                    <Link to='/'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Espace bien-être</Link><br />
+                    <Link to='portfolio'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Fresh Food</Link><br />
+                    <Link to='portfolio'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Restaurant Akira</Link><br />
+                    <Link to='portfolio'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Espace bien-être</Link><br />
                 </article>
 
                 <article className='col-md-3'>
                     <h4>Mes dernièrs articles</h4>
-                    <Link to='/'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Coder son site en HTML/CSS</Link><br />
-                    <Link to='/'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Vendre ses produits sur le web</Link><br />
-                    <Link to='/'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Se positionner sur Google</Link><br />
+                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Coder son site en HTML/CSS</Link><br />
+                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Vendre ses produits sur le web</Link><br />
+                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Se positionner sur Google</Link><br />
 
                 </article>
                 </div>

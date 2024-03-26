@@ -1,11 +1,13 @@
 .contactBg{
     background-image: url(/public/img/contact-bg.jpg);
-    height: auto;
-    width: auto;
+    min-height: 100%;
+    width: 100%;
 }
 
 form{
     background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
 input{
@@ -13,9 +15,37 @@ input{
     margin-bottom: 1rem;
     border-radius: 5px;
     border: 1px solid grey;
+    width: 100%;
 }
 
 textarea{
     border-radius: 5px;
     border: 1px solid grey;
 }
+
+.contactTitle::after{
+    content: "";
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid blue;
+
+}
+
+.formTitle::after{
+    content: "";
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid blue;
+
+}
+
+.localTitle::after{
+    content: "";
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid blue;
+}
+
