@@ -30,7 +30,7 @@ const Footer = () =>{
                     <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> A propos</Link><br />
                     <Link to='service'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Services</Link><br />
                     <Link to='contact'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Me contacter</Link><br />
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Mentions légales</Link><br />
+                    <Link to='mention'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Mentions légales</Link><br />
                 </article>
 
                 <article className='col-md-3'>
