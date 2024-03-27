@@ -7,7 +7,7 @@ const Home = () =>{
         <main>
             <div className='fond '>
                 <div id="welcomeText">
-                    <h1>Bonjour, je m'appel Clément Masclet</h1><br />
+                    <h1>Bonjour, je suis Clément Masclet</h1><br />
                     <h2>Développeur Web full stack</h2><br />
                     <button type='button' className='btn btn-primary'><a href="#propos">En savoir plus</a></button>
                 </div>
@@ -29,7 +29,7 @@ const Home = () =>{
                             <h2>Mes compétences</h2>
                             <p>HTML5 90%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-danger" style= {{width: "90%"}}></div>
+                                <div className="progress-bar bg-danger" style= {{width: "90%"}}></div>
                             </div><br />
                             <p className="">CSS3 80%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">

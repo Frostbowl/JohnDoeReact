@@ -1,5 +1,7 @@
 .contactBg{
-    background-image: url(/public/img/contact-bg.jpg);
+    background-image: linear-gradient(to right, rgba(0, 105, 255, 0.5), rgba(0, 105, 255, 0.5)), url(/public/img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100%;
     width: 100%;
 }
