@@ -2,12 +2,11 @@ main{
     padding-bottom: 5rem;
 }
 .fond{
-    background-image: url('/public/img/hero-bg-mobile.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/public/img/hero-bg-mobile.jpg');
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     text-align: center;
     height: 100vh;
-    background-color: #000000 0.3;
 }
 
 .fond h1,.fond h2, a{
@@ -48,21 +47,21 @@ img{
     max-height: 100%;
 }    
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
     .fond{
-        background-image: url('/public/img/hero-bg-tablette.jpg');
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/public/img/hero-bg-tablette.jpg');
         background-size: cover;
-        background-repeat: none;
+        background-repeat: no-repeat;
         height: 100vh;
 
     }
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1200px){
        .fond{
-        background-image: url('/public/img/hero-bg.jpg');
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/public/img/hero-bg.jpg');
         background-size: cover;
-        background-repeat: none;
+        background-repeat: no-repeat;
         min-height: 100%;
 
     }

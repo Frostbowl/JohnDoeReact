@@ -8,6 +8,10 @@ footer{
     background-color: #EEE;
 }
 
+footer .copyright:hover{
+    background-color: #298eff;
+}
+
 .fa-brands{
     padding-left: 1rem;
 }

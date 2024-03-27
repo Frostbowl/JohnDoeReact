@@ -15,15 +15,15 @@ const Portfolio = () =>{
             </div>
 
             <div className='container text-center'>
-                <div class="row  ">
+                <div className="row  ">
                 
-                    <div class="col-md-5 col-xl-4 px-3 py-4">
-                        <div class="card" >
-                            <img src="../img/portfolio/fresh-food.jpg" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h3 class="card-title">Fresh food</h3>
-                                <p class="card-text">Réalisation d'un site avec commande en ligne.</p>
-                                <a href="#" class="btn btn-outline-primary">voir</a>
+                    <div className="col-md-5 col-xl-4 px-3 py-4">
+                        <div className="card" >
+                            <img src="../img/portfolio/fresh-food.jpg" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h3 className="card-title">Fresh food</h3>
+                                <p className="card-text">Réalisation d'un site avec commande en ligne.</p>
+                                <a href="#" className="btn btn-outline-primary">voir</a>
                             </div>
                             <div>
                                 <p className='card-footer m-0'>Site réalisé en HTML/CSS</p>
@@ -31,13 +31,13 @@ const Portfolio = () =>{
                         </div>
                     </div>
 
-                    <div class="col-md-5 col-xl-4 px-3 py-4">
-                        <div class="card">
-                            <img src="../img/portfolio/restaurant-japonais.jpg" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h3 class="card-title">Restaurant Akira</h3>
-                                <p class="card-text">Réalisation d'un site vitrine</p>
-                                <a href="#" class="btn btn-outline-primary">voir</a>
+                    <div className="col-md-5 col-xl-4 px-3 py-4">
+                        <div className="card">
+                            <img src="../img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h3 className="card-title">Restaurant Akira</h3>
+                                <p className="card-text">Réalisation d'un site vitrine</p>
+                                <a href="#" className="btn btn-outline-primary">voir</a>
                             </div>
                             <div>
                                 <p className='card-footer m-0'>Site réalisé en HTML/CSS</p>
@@ -45,13 +45,13 @@ const Portfolio = () =>{
                         </div>
                     </div>
 
-                    <div class="col-md-5 col-xl-4 px-3 py-4">
-                        <div class="card">
-                            <img src="../img/portfolio/espace-bien-etre.jpg" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h3 class="card-title">Espace bien-être</h3>
-                                <p class="card-text">Réalisation d'un site vitrine pour un praticien de bien-être</p>
-                                <a href="#" class="btn btn-outline-primary">voir</a>
+                    <div className="col-md-5 col-xl-4 px-3 py-4">
+                        <div className="card">
+                            <img src="../img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h3 className="card-title">Espace bien-être</h3>
+                                <p className="card-text">Réalisation d'un site vitrine pour un praticien de bien-être</p>
+                                <a href="#" className="btn btn-outline-primary">voir</a>
                             </div>
                             <div>
                                 <p className='card-footer m-0'>Site réalisé en HTML/CSS</p>

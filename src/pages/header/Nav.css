@@ -3,8 +3,8 @@
     border-width: 0.2em;
 }
 
-
-
-nav{
-    background-color: #212429;
+.nav-item a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 }
+

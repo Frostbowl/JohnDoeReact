@@ -36,21 +36,21 @@ const Footer = () =>{
                 <article className='col-md-3'>
                     <h4>Mes dernières réalisations</h4>
                     <Link to='portfolio'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Fresh Food</Link><br />
-                    <Link to='portfolio'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Restaurant Akira</Link><br />
-                    <Link to='portfolio'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Espace bien-être</Link><br />
+                    <Link to='portfolio'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Restaurant Akira</Link><br />
+                    <Link to='portfolio'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Espace bien-être</Link><br />
                 </article>
 
                 <article className='col-md-3'>
                     <h4>Mes dernièrs articles</h4>
-                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Coder son site en HTML/CSS</Link><br />
-                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Vendre ses produits sur le web</Link><br />
-                    <Link to='blog'><i class="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Se positionner sur Google</Link><br />
+                    <Link to='blog'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Coder son site en HTML/CSS</Link><br />
+                    <Link to='blog'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Vendre ses produits sur le web</Link><br />
+                    <Link to='blog'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Se positionner sur Google</Link><br />
 
                 </article>
                 </div>
             </div>
             <div className="copyright">
-                &copy; Designed by Clément Masclet
+                &copy; Designed by <a href="#" className='text-white'>Clément Masclet</a>
             </div>
         </footer>
     )

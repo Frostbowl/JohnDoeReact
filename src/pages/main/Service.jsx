@@ -15,8 +15,8 @@ const Service = () =>{
                 <div className='row g-1'>
 
                 <div className="col-md-4 col-xl-4 ">
-                    <div className='card text-center mb-1 p-5'>
-                    <i className="fa-solid fa-desktop fa-2xl p-5" style={{color: "#0d6efd"}}></i>
+                    <div className='card uxd text-center mb-1 p-5'>
+                    <i className="fa-solid uxdI fa-desktop fa-2xl p-5"></i>
                     <h2 className='text-uppercase card-title'>ux design</h2>
                     <p className='card-text pb-4'>L'<strong>UX Design</strong> est une méthode de conception centrée sur l'utilisateur. 
                     Son but est d'offrir une expérience de navigation optimale à l'internaute.</p>
@@ -24,8 +24,8 @@ const Service = () =>{
                 </div>
 
                 <div className="col-md-4 col-xl-4 ">
-                    <div className='card text-center p-5'>
-                    <i className="fa-solid fa-file-code fa-2xl p-5" style={{color: "#0d6efd"}}></i>
+                    <div className='card dvw text-center p-5'>
+                    <i className="fa-solid fa-file-code fa-2xl p-5"></i>
                     <h2 className='text-uppercase card-title'>développement web</h2>
                     <p className='card-text pb-4'>le<strong> développement de sites web</strong> repose sur l'utilisation des langages 
                      <span className=' dotted-border'> html</span>, <span className=' dotted-border'>css</span>,
@@ -34,8 +34,8 @@ const Service = () =>{
                 </div>
 
                 <div className="col-md-4 col-xl-4 ">
-                    <div className='card text-center p-5'>
-                    <i className="fa-solid fa-magnifying-glass-dollar fa-2xl p-5" style={{color: "#0d6efd"}}></i>
+                    <div className='card ref text-center p-5'>
+                    <i className="fa-solid fa-magnifying-glass-dollar fa-2xl p-5"></i>
                     <h2 className='text-uppercase card-title'>référencement</h2>
                     <p className='card-text pb-4'>Le<strong> référencement naturel d'un site,</strong> aussi appelé 
                     <span className='dotted-border'> seo,</span> consiste à mettre des techniques en oeuvre pour

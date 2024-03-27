@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     height: 10vh;
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
     .serviceBg{
         background-image: url('/public/img/banner-tablette.jpg');
         background-size: cover;
@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1200px){
        .serviceBg{
         background-image: url('/public/img/banner.jpg');
         background-size: cover;
@@ -30,6 +30,13 @@
     text-decoration-style: dotted;
 }
 
+.card i{
+    color: #0d6efd;
+}
 .card{
     box-shadow: 0px 0px 1px 0px grey;
+}
+
+.card:hover i{
+    color: #cde1f8;
 }
