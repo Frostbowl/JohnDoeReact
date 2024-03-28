@@ -18,9 +18,9 @@ const Footer = () =>{
                     
                     </address>
                     <div className='Container social'>
-                    <a href='https://linkedin.com' target='_blank'><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                    <a href='https://github.com' target='_blank'><i class="fa-brands fa-github fa-2xl"></i></a>
-                    <a href='https://twitter.com' target='_blank'><i class="fa-brands fa-twitter fa-2xl"></i></a><br />
+                    <a href='https://linkedin.com' target='_blank'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href='https://github.com' target='_blank'><i className="fa-brands fa-github fa-2xl"></i></a>
+                    <a href='https://twitter.com' target='_blank'><i className="fa-brands fa-twitter fa-2xl"></i></a><br />
                     <a href="github" target="_blank" >Informations GitHub</a>
                     </div>
                 </article>

@@ -7,12 +7,13 @@ import Blog from './pages/main/Blog.jsx';
 import Service from './pages/main/Service.jsx';
 import Contact from './pages/main/Contact.jsx';
 import Mention from './pages/main/Mention.jsx';
-import UserInfo from './pages/GitHub/UserInfo.js';
+import AppGitHub from './pages/GitHub/UserInfo.jsx';
 import Footer from './pages/footer/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
+
       <Nav/>
         <Routes>
           <Route path='home' element= {<Home/>}/>
@@ -21,7 +22,7 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/mention' element={<Mention/>}/>
-          <Route path='/github' element={<UserInfo/>}/>
+          <Route path='/github' element={<AppGitHub/>}/>
         </Routes>
       <Footer/>
 

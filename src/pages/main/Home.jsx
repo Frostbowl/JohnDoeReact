@@ -9,7 +9,7 @@ const Home = () =>{
                 <div id="welcomeText">
                     <h1>Bonjour, je suis Clément Masclet</h1><br />
                     <h2>Développeur Web full stack</h2><br />
-                    <button type='button' className='btn btn-primary'><a href="#propos">En savoir plus</a></button>
+                    <button type='button'  className='btn btn-primary'><a href="#propos">En savoir plus</a></button>
                 </div>
             </div>
 
