@@ -7,6 +7,7 @@ import Blog from './pages/main/Blog.jsx';
 import Service from './pages/main/Service.jsx';
 import Contact from './pages/main/Contact.jsx';
 import Mention from './pages/main/Mention.jsx';
+import UserInfo from './pages/GitHub/UserInfo.js';
 import Footer from './pages/footer/Footer.jsx';
 
 function App() {
@@ -14,12 +15,13 @@ function App() {
     <div className="App">
       <Nav/>
         <Routes>
-          <Route path='/' element= {<Home/>}/>
+          <Route path='home' element= {<Home/>}/>
           <Route path='/portfolio' element= {<Portfolio/>}/>
           <Route path='/blog' element={<Blog/>}/>
           <Route path='/service' element={<Service/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/mention' element={<Mention/>}/>
+          <Route path='/github' element={<UserInfo/>}/>
         </Routes>
       <Footer/>
 
