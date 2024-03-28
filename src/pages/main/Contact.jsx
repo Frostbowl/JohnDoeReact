@@ -24,7 +24,7 @@ const Contact = () =>{
                             <label for="message"></label>
                             <textarea type="textarea" name='message' id='message' placeholder='Votre message' rows='4' required/>      
                             <div className='formBtn text-center p-4'>                   
-                            <button type='button' className='btn btn-primary'>Envoyer</button>
+                            <button type='submit' className='btn btn-primary'>Envoyer</button>
                             </div>   
                         </div>
                         

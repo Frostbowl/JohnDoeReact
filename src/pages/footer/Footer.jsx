@@ -20,14 +20,15 @@ const Footer = () =>{
                     <div className='Container social'>
                     <a href='https://linkedin.com' target='_blank'><i class="fa-brands fa-linkedin fa-2xl"></i></a>
                     <a href='https://github.com' target='_blank'><i class="fa-brands fa-github fa-2xl"></i></a>
-                    <a href='https://twitter.com' target='_blank'><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                    <a href='https://twitter.com' target='_blank'><i class="fa-brands fa-twitter fa-2xl"></i></a><br />
+                    <a href="github" target="_blank" >Informations GitHub</a>
                     </div>
                 </article>
 
                 <article className='col-md-3'>
                     <h4>Liens utiles</h4>
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Accueil</Link><br />
-                    <Link to='/'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> A propos</Link><br />
+                    <Link to='home'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Accueil</Link><br />
+                    <Link to='home'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> A propos</Link><br />
                     <Link to='service'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Services</Link><br />
                     <Link to='contact'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Me contacter</Link><br />
                     <Link to='mention'><i className="fa-solid fa-chevron-right" style={{color: "#0d6efd"}}></i> Mentions légales</Link><br />
