@@ -1,7 +1,11 @@
 import React from 'react';
 import './Blog.css';
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 const Blog = () =>{
     return(
+        <div className='App'>
+            <Nav/>
         <main>
         <div className='blogBg'></div>
             
@@ -102,6 +106,8 @@ const Blog = () =>{
             </div>
             
         </main>
+        <Footer/>
+        </div>
     )
 }
 

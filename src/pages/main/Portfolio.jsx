@@ -1,9 +1,13 @@
 import React from 'react';
 import "./Portfolio.css";
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 
 
 const Portfolio = () =>{
     return(
+        <div className='App'>
+        <Nav/>
         <main>
             <div className='portfolioBg'></div>
             
@@ -64,6 +68,8 @@ const Portfolio = () =>{
             </div>
 
         </main>
+        <Footer/>
+        </div>
     )
 }
 

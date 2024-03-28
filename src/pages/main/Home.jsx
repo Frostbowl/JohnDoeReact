@@ -1,9 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 import "./Home.css";
 
 const Home = () =>{
     return (
+        <div className='App'>
+            <Nav/>
         <main>
             <div className='fond '>
                 <div id="welcomeText">
@@ -52,6 +56,8 @@ const Home = () =>{
                     </div>
             </section>
         </main>
+        <Footer/>
+        </div>
     )
 }
 

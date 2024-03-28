@@ -1,8 +1,12 @@
 import React from 'react';
 import './Mention.css';
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 
 const Mention =()=>{
     return(
+        <div className='App'>
+        <Nav/>
         <main className='mentions'>
             <div className='text-center text-uppercase'>
                 <h1>mentions légales</h1>
@@ -63,6 +67,8 @@ const Mention =()=>{
                 </div>
             </div>
         </main>
+        <Footer/>
+        </div>
     )
 }
 

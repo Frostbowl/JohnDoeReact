@@ -1,8 +1,12 @@
 import React from 'react';
 import './Contact.css';
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 
 const Contact = () =>{
     return(
+            <div className='App'>
+            <Nav/>
             <div className='contactBg p-4'>
                 <form className='container p-5'>
                     <div className='contactTitle text-center'>
@@ -38,6 +42,8 @@ const Contact = () =>{
                         </div>
                     </div>
                 </form>
+            </div>
+        <Footer/>
             </div>
     )
 }

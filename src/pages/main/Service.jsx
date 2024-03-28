@@ -1,8 +1,12 @@
 import './Service.css';
 import React from 'react';
+import Nav from '../header/Nav';
+import Footer from '../footer/Footer.jsx';
 
 const Service = () =>{
     return(
+        <div className='App'>
+        <Nav/>
         <main>
             <div className='serviceBg'></div>
 
@@ -47,6 +51,8 @@ const Service = () =>{
             </div>
 
         </main>
+        <Footer/>
+        </div>
     )
 }
 
