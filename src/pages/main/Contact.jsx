@@ -5,7 +5,7 @@ import Footer from '../footer/Footer.jsx';
 
 const Contact = () =>{
     return(
-            <div className='App'>
+            <div>
             <Nav/>
             <div className='contactBg p-4'>
                 <form className='container p-5'>

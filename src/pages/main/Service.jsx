@@ -5,7 +5,7 @@ import Footer from '../footer/Footer.jsx';
 
 const Service = () =>{
     return(
-        <div className='App'>
+        <div>
         <Nav/>
         <main>
             <div className='serviceBg'></div>

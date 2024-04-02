@@ -5,7 +5,7 @@ import Footer from '../footer/Footer.jsx';
 
 const Mention =()=>{
     return(
-        <div className='App'>
+        <div>
         <Nav/>
         <main className='mentions'>
             <div className='text-center text-uppercase'>

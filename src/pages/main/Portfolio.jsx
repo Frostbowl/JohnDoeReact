@@ -6,7 +6,7 @@ import Footer from '../footer/Footer.jsx';
 
 const Portfolio = () =>{
     return(
-        <div className='App'>
+        <div >
         <Nav/>
         <main>
             <div className='portfolioBg'></div>

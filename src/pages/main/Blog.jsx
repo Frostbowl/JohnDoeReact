@@ -4,7 +4,7 @@ import Nav from '../header/Nav';
 import Footer from '../footer/Footer.jsx';
 const Blog = () =>{
     return(
-        <div className='App'>
+        <div>
             <Nav/>
         <main>
         <div className='blogBg'></div>
